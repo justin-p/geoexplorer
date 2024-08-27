@@ -8,7 +8,7 @@ This is the server component of the GeoExplorer project, built with FastAPI to l
 
 ## Running the Server
 
-You can run the server using Docker Compose or directly with Uvicorn.
+You can run the server using Docker Compose or directly with Uvicorn. Make sure the machine you are running the server on is publicly accessible on the chosen server port.
 
 ### Using Docker Compose
 
