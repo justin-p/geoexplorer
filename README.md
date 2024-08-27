@@ -5,7 +5,7 @@ GeoExplorer is a project consisting of a client and server component designed to
 ## Project Structure
 
 - `client/`: Contains the client-side Python script for sending specially crafted requests to abuse CVE-2024-36401 on GeoServer instances.
-- `server/`: Contains the server-side async FastAPI application for logging requests.
+- `server/`: Contains the server-side async FastAPI application for logging incomming requests from exploited servers.
 
 ## Getting Started
 
