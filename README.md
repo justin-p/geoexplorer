@@ -1,11 +1,11 @@
 # GeoExplorer
 
-GeoExplorer is a project consisting of a client and server component designed to test GeoServer instances for CVE-2024-36401 and log requests.
+GeoExplorer is a mass scanner project consisting of a client and server component designed to test GeoServer instances for CVE-2024-36401 and log successful exploitations.
 
 ## Project Structure
 
 - `client/`: Contains the client-side Python script for sending specially crafted requests to abuse CVE-2024-36401 on GeoServer instances.
-- `server/`: Contains the server-side async FastAPI application for logging incomming requests from exploited servers.
+- `server/`: Contains the server-side async FastAPI application for logging incoming requests from exploited servers.
 
 ## Getting Started
 
